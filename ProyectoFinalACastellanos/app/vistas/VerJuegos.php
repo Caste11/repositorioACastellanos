@@ -8,17 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         .card {
-            width: 250px; /* Ancho fijo de la carta */
-            margin: 15px; /* Espacio alrededor de cada carta */
+            width: 250px; 
+            margin: 15px; 
         }
         .card-img-top {
-            height: 200px; /* Altura de la imagen */
-            object-fit: cover; /* Ajuste de la imagen dentro del contenedor */
+            height: 200px; 
+            object-fit: cover; 
         }
         .card-title, .card-text {
-            white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
-            overflow: hidden; /* Oculta el texto desbordado */
-            text-overflow: ellipsis; /* Añade puntos suspensivos al texto desbordado */
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
         }
 
         body{

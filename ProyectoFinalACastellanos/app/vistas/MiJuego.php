@@ -31,6 +31,7 @@
     </header>
 
     <h1>Bienvenido <?= Sesion::getUsuario()->getNombre() ?> a tu apartado de juegos</h1>
+
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCrear" data-bs-whatever="@mdo">Nuevo Juego</button>
     
     <div id="contenedorJuegos">
@@ -46,8 +47,6 @@
                 <i class="fa-solid fa-trash papelera" data-idJuego="<?= $j->getId()?>"></i>
         <?php endforeach; ?>
     </div>
-
-    
 
     <div class="modal fade" id="modalCrear" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
